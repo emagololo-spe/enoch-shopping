@@ -23,8 +23,8 @@ services:
       - key: CSRF_TRUSTED_ORIGINS
         value: "https://enock-shopping-center.onrender.com,https://*.onrender.com"
 
-  databases:
-    - name: enock-db
-      databaseName: enock
-      user: enock
-      plan: free
+databases:
+  - name: enock-db
+    databaseName: enock
+    user: enock
+    plan: free
